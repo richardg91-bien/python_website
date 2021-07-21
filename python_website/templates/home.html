@@ -1,0 +1,78 @@
+{% extends "layout.html" %}
+{% block contentA %}
+  
+<div class="contentA">   
+   <div class="card text-center">
+      <div class="card-body">
+        <br><br> <br>
+         <h2 class="card-title">Dooes your Keyword "Qualify" to Rank on 1st Page og Google?</h2>
+        <br>
+         <h3 class="card-text"> Find out for 'FREE'!</h3>
+         <br><br>
+    
+        <a href="#" class="btn btn-primary">7 Days Trial Period</a>
+        <h3 class="card-text"> Plans starting at $5/mo only. </h3>
+      </div>
+    </div>
+
+  </div>
+<link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='./main.css')}}"
+    />
+{% endblock contentA %}
+
+{% block contentB %}
+Form Area
+{% endblock contentB %}
+
+{% block contentC %}
+<div class="card text-center">
+      <div class="card-body">
+        <br><br> <br>
+         <h2 class="card-title">What is AllinTitle</h2>
+        <br>
+         <p class="card-text"> AllinTitle is a google Search operator that you find competing website for exactly your  target keyword</p>
+         <br><br>
+    
+        <a href="#" class="btn btn-primary">Signup for Free</a>
+        
+      </div>
+    </div>
+{% endblock contentC %}
+
+{% block contentD %}
+<div class="container MB-4">   
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-8"></div>
+    <div class="col-sm-4"></div>
+  </div>
+ <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{{url_for('static',filename='imagen/Buenabuena.png')}}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{{url_for('static',filename='imagen/BUENISIMA.png')}}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{{url_for('static',filename='imagen/camperaazul.png')}}" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">DAGAT</span>
+  </button>
+</div>
+</div>
+{% endblock contentD %}
+
+
+ 
+
+
